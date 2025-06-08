@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DSA Demonstrator"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#212121"/>
+
+    <Button
+        android:id="@+id/button_arraylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayList"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_linkedlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinkedList"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_stack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stack"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_deque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deque"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#9C27B0"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_bst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Binary Search Tree"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
